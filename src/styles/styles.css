@@ -1,0 +1,214 @@
+.fab {
+  font-family: 'Font Awesome 5 Brands', 'fa-brands-400';
+  font-weight: 400;
+}
+.fas {
+  font-family: 'Font Awesome 5 Free', 'fa-solid-900';
+  font-weight: 900;
+}
+.far {
+  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
+  font-weight: 400;
+}
+.page__content-icon,
+.page__content-placeholder {
+  color: const(grey);
+  font-size: 20;
+  vertical-align: center;
+  horizontal-align: center;
+}
+.page__content-icon {
+  font-size: 72;
+  vertical-align: top;
+  margin-top: 20%;
+}
+.nt-drawer__header-image {
+  color: const(grey);
+}
+.image-title {
+  margin-left: -500px;
+}
+.te-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #6759f9;
+  font-weight: 700;
+  font-family: Raleway, sans-serif;
+  line-height: 1.1;
+}
+.te-logo-page {
+  margin: 80px 0 200px 0;
+}
+.te-button {
+  height: 38px;
+  display: inline-block;
+  border-radius: 50px;
+}
+.te-button .te-button-text {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+.te-button-primary {
+  background-color: #db326e;
+  border-color: #db326e;
+  border-width: 1;
+}
+.te-button-secondary {
+  background-color: #6759f9;
+  border-color: #6759f9;
+  border-width: 1;
+}
+.te-button-outline-1 {
+  border-color: #ff2e70;
+  border-width: 1;
+}
+.te-button-outline-1 .te-button-text {
+  color: #ff2e70;
+}
+.te-button-outline-2 {
+  border-color: #d6006d;
+  border-width: 1;
+}
+.te-button-outline-2 .te-button-text {
+  color: #d6006d;
+}
+.te-button-outline-3 {
+  border-color: #a66afe;
+  border-width: 1;
+}
+.te-button-outline-3 .te-button-text {
+  color: #a66afe;
+}
+.te-button-outline-4 {
+  border-color: #6c58fe;
+  border-width: 1;
+}
+.te-button-outline-4 .te-button-text {
+  color: #6c58fe;
+}
+.te-button-outline-5 {
+  border-color: #326bdb;
+  border-width: 1;
+}
+.te-button-outline-5 .te-button-text {
+  color: #326bdb;
+}
+.te-button-5 {
+  background-color: #326bdb;
+  border-color: #326bdb;
+  border-width: 1;
+}
+.te-button-5 .te-button-text {
+  color: #fff;
+}
+.te-button-facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  border-width: 1;
+  text-align: left;
+  padding-left: 70;
+}
+.te-button-facebook .te-button-text {
+  font-size: 16px;
+}
+.te-button-facebook .te-button-icon {
+  font-size: 18px;
+}
+.te-button-google {
+  background-color: #fff;
+  border-color: #c5c5c6;
+  border-width: 1;
+  text-align: left;
+  padding-left: 70;
+}
+.te-button-google .te-button-text {
+  font-size: 16px;
+  color: #5f6367;
+}
+.te-button-google .te-button-icon {
+  font-size: 18px;
+}
+.te-button-icon-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.te-button-apple {
+  background-color: black;
+  border-color: black;
+  border-width: 1;
+  text-align: left;
+  padding-left: 70;
+}
+.te-button-apple .te-button-text {
+  font-size: 16px;
+}
+.te-button-apple .te-button-icon {
+  font-size: 18px;
+}
+.te-login-space2 {
+  font-size: 3px;
+}
+.te-dropdown {
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+.te-dropdown #spinner-label {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Raleway, sans-serif;
+  line-height: 1.1;
+  height: 70px;
+  font-size: 18px;
+}
+.te-tour-details {
+  width: 70%;
+  background-color: rgba(231, 212, 255, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  font-size: 14px;
+  box-shadow: #000 26 -0.5px 3px 8px 5px;
+}
+.te-tour-title {
+  text-transform: uppercase;
+}
+.te-tour-separator {
+  font-size: 2px;
+}
+.te-tour-download {
+  margin-top: 40px;
+  width: 70%;
+  font-size: 16px;
+}
+.te-webview {
+  margin-top: 40px;
+  width: 75%;
+}
+.te-phone-html {
+  font-weight: bold;
+  color: red;
+  padding-left: 20px;
+}
+.te-link {
+  text-decoration: underline;
+  color: #15c;
+  margin-left: 20px;
+}
+.te-underline {
+  text-decoration: underline;
+}
+.te-bar-title-phone {
+  margin-left: 60px;
+}

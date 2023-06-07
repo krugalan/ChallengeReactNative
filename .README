@@ -1,0 +1,22 @@
+
+# Challenge React Native
+
+Project developed in Bare React Native. Includes animations in Ranimated 3 and data persistence with Redux Toolkit.
+
+
+
+## Project
+
+The project structure is defined:
+
+- api:
+- components
+- config
+- features
+- hooks
+- navigation
+- store
+- styles
+
+
+
