@@ -1,22 +1,17 @@
-
 # Challenge React Native
 
-Project developed in Bare React Native. Includes animations in Ranimated 3 and data persistence with Redux Toolkit.
-
-
+Project developed in Bare React Native. Includes animations in Ranimated and data persistence with Redux Toolkit.
 
 ## Project
 
 The project structure is defined:
 
-- api:
-- components
-- config
-- features
-- hooks
-- navigation
-- store
-- styles
-
-
-
+- api: axios config and api requests (in progress)
+- components: folder with componentes separated by type.
+- config: Google signin, toast config, firebase, and similar implementations (in progress)
+- constants: shared constants to avoid magic numbers, and clarify operations. We can put here all the screens paths as well (in progress)
+- features: folder that contains important features and flows of the app. The idea is that we have specific components by feature, but if one of them is used for other component we need to put this one in the folder src/components. 
+- hooks: all the shared hooks
+- navigation: navigations and screens
+- store: state management related with redux in this case. There is another way to order slices and selectors, for example insde Modules and each module with a similar structure than a feature.
+- styles: shared styles for all the app. 
