@@ -2,8 +2,9 @@ import React from 'react';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 import {StyleSheet} from 'react-native';
 import {useDrawerProgress} from '@react-navigation/drawer';
+import {DrawerViewType} from './typings';
 
-export const DrawerView = ({children}) => {
+export const DrawerView = ({children}: DrawerViewType) => {
   const drawerProgress = useDrawerProgress();
 
   const viewStyles = useAnimatedStyle(() => {
